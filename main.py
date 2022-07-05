@@ -32,7 +32,6 @@ async def load(ctx, extension):
 
 
 @bot.command()
-@commands.has_permissions(ban_members=True)
 async def unload(ctx, extension):
     if ctx.message.author.id in [462940637595959296, 438529479355400194, 397389995113185293, 665885831856128001]:
         bot.unload_extension(f'cogs.{extension}')
@@ -160,6 +159,37 @@ async def on_message(message):
     elif message.content.upper() == "HMM":
         if message.author.id in [283326249735028736]:
             await message.reply("mhm")
+	    elif message.content.upper() == "THUNDXR":
+        if message.author.id in [694604709591384226]:
+            list = ["huh?",
+                    "stop annoying me smh",
+                    "bad at coding",
+                    "good at coding",
+                    "edited me",
+                    "hacks ppl hehe",
+                    "stop looking at me",
+                    "is hot",
+                    "is nice",
+                    "what?",
+                    "ITHUNDXR!!!!!",
+                    "IThundxr",
+                    "why?",
+                    "Grinds alot",
+                    "where?",
+                    "HOW?",
+                    "no",
+                    "no.",
+                    "NO",
+                    "No.",
+                    "shut up",
+                    "codes alot",
+                    "Minecraft.",
+                    "oooh you found the special response that does legit nothing. cool?",
+                    "wow",
+                    "is ~~kinda~~ very mean",
+                    "lol"]
+            randommessage = random.sample(range(0, len(list)), 1)
+            await message.reply(list[randommessage[0]])
     await bot.process_commands(message)
 
 load_dotenv()

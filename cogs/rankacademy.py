@@ -7,12 +7,10 @@ from discord.utils import get
 
 senior = """
 Seniors are required to have 350+ weight. Use the bot command `/weight` to show you have enough weight for this rank before continuing, if you haven't already.
-
 This rank requires you to:
 Report disruptive people
 Understand when to report
 Be generally helpful, kind, and welcoming to all
-
 This Academy has two sections.
 **Report Guide** - How and when to report someone to our staff that is breaking our rules
 **Kindness Academy** - How to be generally helpful, kind, and welcoming to all
@@ -38,11 +36,9 @@ Hacking```
 """
 end = """
 This list is not exhaustive, but should give you an idea of some of the things that we don’t allow. You can find a full list of our rules in rules
-
 If you find someone doing these actions in game you can report them to our moderation team by opening a “report a user” ticket in get-help. Please be sure to include screenshots of everything you are reporting.
-
 Our lack of knowledge of these situations happening may turn into people thinking we tolerate bad behavior. This is not our intention or what we wish to show new members. The more people report, the more aware we are of people who make everyone else unhappy, the faster we can remove excessively disruptive people and make our guilds and server more comfortable for everyone. You will be our front line in making our server safe for both current and new members.
-**Please say done when you finish reading**"""
+**Please run the command `+done` when you finish reading**"""
 reporte1 = discord.Embed(
     title='Reporting people',
     description='',
@@ -54,9 +50,8 @@ reporte1.add_field(name="Against Rules", value=body1, inline=False)
 reporte1.add_field(name="Disclaimer", value=end, inline=False)
 report1 = """
 Bobby531 recently joined the guild and is asking for a Hyperion for free, then saying they’re just kidding right afterwards. They have repeated this behavior a few times in the past.
-
 It’s never fun to be nagged by guild members for free things. We have “No Begging” in our rules and believe everyone should know that they can be in our guild without 10 people harassing them, asking for free things. Regardless if someone says “just kidding” right after, it’s still annoying to have to deal with on a regular basis, and we don’t want to have to force our members ignore these issues or /ignore add the beggar. Handling them right away by reporting them is the best and fastest way to get someone to stop doing an undesirable behavior.
-**Please say done when you finish reading**"""
+**Please run the command `+done` when you finish reading**"""
 reporte2 = discord.Embed(
     title='Example 1',
     description='',
@@ -66,9 +61,8 @@ reporte2.set_footer(text='SBU Rank Academy')
 reporte2.add_field(name="1.", value=report1, inline=False)
 report2 = """
 Georgina32 and Bobby555 have been talking about drugs for a few minutes, both of them are just simply naming drugs one after another. This started because Bobby555 said he needed more drugs for his dungeon runs(referring to Potions).
-
 Because Mojang’s ToS states the game is for ages 10 and above, we don’t allow talk of illicit substances or likewise, due to the player base being so young. These actions would warrant a report, even if Georgina32 and Bobby555 have already stopped talking about drugs. You will need to take and submit screenshots with your report.
-**Please say done when you finish reading**
+**Please run the command `+done` when you finish reading**
 """
 reporte2a = discord.Embed(
     title='Example 2',
@@ -79,9 +73,8 @@ reporte2a.set_footer(text='SBU Rank Academy')
 reporte2a.add_field(name="2.", value=report2, inline=False)
 report3 = """
 Sopheee, Randy67, and Bobby555 are all getting a bit rowdy. They start to turn to making “deez nuts” jokes to each other. Sopheee sets all the jokes up, and Bobby555 is saying the punchline to each joke.
-
 We don’t allow “deez nuts” jokes in our guilds or on our discord. Usually these jokes are harmful to the welcoming environment that we’re trying to create, plus they’re considered “Not Safe for Work” or NSFW and therefore not allowed. Everyone involved in making the jokes and egging others on to make these actions would warrant needing to be reported. You will need to take and submit screenshots with your report.
-**Please say done when you finish reading**"""
+**Please run the command `+done` when you finish reading**"""
 reporte3 = discord.Embed(
     title='Example 3',
     description='',
@@ -91,9 +84,8 @@ reporte3.set_footer(text='SBU Rank Academy')
 reporte3.add_field(name="3.", value=report3, inline=False)
 report4 = """  
 Sopheee is upset you “told on” her by reporting her to staff. She’s DMing you telling you how horrible you are for ruining their fun.
-
 This is plain harassment and is not tolerated. Please let us know if you’re every harassed publicly or privately by another member in our server or guilds and we will be sure to handle them immediately. We want everyone to feel safe on our server. You will need to take and submit screenshots with your report.
-**Please say done when you finish reading**
+**Please run the command `+done` when you finish reading**
 """
 reporte4 = discord.Embed(
     title='Example 4',
@@ -104,18 +96,15 @@ reporte4.set_footer(text='SBU Rank Academy')
 reporte4.add_field(name="4.", value=report4, inline=False)
 kindness = """
 This academy is an incredibly important piece to how we survive as a guild and server. Our staff need to also be helpful and kind. People that are found being catty or otherwise rude will be stripped of their ranks and reduced to Freshmen moving forward.
-
 We aren’t here to berate confused newcomers into submission by calling them worthless nons and promoting how big and strong we are. The sole purpose of our server and guilds are to help new and mid-game players learn how to play skyblock. Holding yourself above another player due to how much weight, networth, etc you have has absolutely no place here. The idea that you treat others this way needs to be smashed from here on if you wish to have a rank in this server.
-
 """
 body2 = """If you would consider our guild like a college campus, our general chat being our open area where people can congregate, our help channels are like our classrooms, and our tutoring sessions are just that. We are a school here, and where we absolutely do like to have fun, there is still a bit of professionalism that we need to show to the new and confused members of our community. With new members we need to remember that we were new too at one point in time and didn’t have all the information or know where to go. We must put ourselves back in their shoes to treat them with kindness and respect all humans deserve.
 """
 body3 = """If you feel yourself getting short with someone, irritated or angry - don’t fret! We have plenty of other people who would love to help and take your place. Just step back for a minute and let someone else take over.
-
 """
 end1 = """"If you are helping someone that is just asking for free things from you over and over again, please be sure to report beggars to our mod team, so we may handle these situations individually.
 **This is the end of the course for seniors. Please ping <@&801634222577156097> role
-Instructors+ type done after finishing reading.
+Instructors+ run the command `+done` after finishing reading.
 **
 """
 kindness1 = discord.Embed(
@@ -130,7 +119,6 @@ kindness1.add_field(name="What to do if you get annoyed.", value=body3, inline=F
 kindness1.add_field(name="The end for Seniors", value=end1, inline=False)
 
 instrplus = """
-
 `Instructors, Professors, Deans and Provost` are required to have 700+, 2100+, 4200+ and 8400+  weight respectively. Use the bot command now to show you have enough weight for this rank before continuing, if you haven't already.
 """
 body4 = """
@@ -139,17 +127,14 @@ body4 = """
 > Check people as they request to join our guild
 > Be available to answer questions in tutoring tickets
 > Be generally helpful, kind, and welcoming to all.
-
 **This Academy has four sections.** Use these commands to access them:
 **Report Guide** - How and when to report someone to our staff that is breaking our rules
 **Kindness Academy** - How to be generally helpful, kind, and welcoming to all
 **Guild Checking Academy** - How to check if people are on our #banned-list or on a scammer list
 **Tutoring Academy** - What tutoring tickets are and how to act in them
-
 After you are done reading, you will be tested with several open answer questions to make sure you understand what was covered. You may ask questions before testing.
-
 Once you finish reading all sections of this academy, please ping the Moderator role THEN clarify if you've pinged to ask questions OR if you're ready to be tested.
-**Type done when you are finished reading**"""
+**Please run the command `+done` when you finish reading**"""
 instr1 = discord.Embed(
     title='Instructor+ Ranks',
     description='',
@@ -159,28 +144,20 @@ instr1.set_footer(text='SBU Rank Academy')
 instr1.add_field(name="Ranks Above Senior", value=instrplus, inline=False)
 instr1.add_field(name="Rank Requirements", value=body4, inline=False)
 guildchecking1 = """Check if they are on <@797974550834053203> scammer/irl trader list by performing this command in <#801507439236874290>:
-
 /lookup player [ign]
-
 You can see and example below of someone who is not flagged and someone who is flagged.
-
 Link to gif if you're having trouble loading: https://i.imgur.com/DzRRdk5.mp4"""
 guildchecking2 = """Search:
 `in: banned-list [ign]`
-
 See below to get an idea of where to look for the search bar.
-
 This searches our <#830188559964307526> channel to ensure this person was not previously banned from our guilds or a scammer.
-
 Link to gif if you're having trouble loading: https://i.imgur.com/Mt3wcIM.gif"""
 guildchecking3 = """
 You can use this command to bring up a cheat-sheet on how to look up people in our guilds at any time in the future:
-
 `!bannedlist`
-
 Note: If you are unable to look people up, you will not be able to hold a rank in our guilds.
 Please continue below.
-**Type done after you finish reading this**"""
+**Please run the command `+done` when you finish reading**"""
 guildc = discord.Embed(
     title='Guild Checking academy',
     description='',
@@ -206,7 +183,6 @@ guildc2 = discord.Embed(
 )
 guildc2.add_field(name="Notes", value=guildchecking3, inline=False)
 mhmtutor = """Our server has a very unique system where people with instructor rank or higher have access to answering questions our members may have in a ticket system located in <#943358090735140904>. You will also have access to the Advanced Tutoring section for people who are more advanced in the game or at your level that can answer your questions.
-
 It is important to remain kind and helpful in tutoring tickets. If you have a disagreement with another person in the ticket, please be sure to handle it civilly and politely. Toxic arguments over in game mechanics have no place here, and both parties involved in these sorts of exchanges will be demoted and potentially muted or removed depending on severity of the situation. If you find someone acting like this, be sure to ping the moderator role so it can be dealt with swiftly.
 """
 tutor2 = """
@@ -258,7 +234,6 @@ IvoryUntrusty: that’s not nice…""",
               TheHolyBonk: yo anyone want some enchanted quartz blocks for 1.2m?
               BlueCow03: sure visit me
               TheHolyBonk: cool
-
               TheHolyBonk has left the guild
               BlueCow03: NO
               StanTheStonk3069: F
@@ -283,12 +258,10 @@ IvoryUntrusty: that’s not nice…""",
               """DogeLover4: Hyperion on my ah!!!
               AmericanDove07: pog
               DogeLover4: ./ah DogeLover4
-
               DogeLover4: still got a hype on my ah! /ah DogeLover4
               AmericanDove07: I’m too poor
               DogeLover4: Imagine
               DogeLover4: peasant
-
               DogeLover4: ./ah DogeLover4 still got the Hyperion up""",
               """Flylit: how’s everyone’s day going?
               FootRaider27: stfu
@@ -373,37 +346,37 @@ class RA(commands.Cog):
             channel = message.channel
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte1)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte2)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte2a)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte3)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte4)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=kindness1)
@@ -415,43 +388,43 @@ class RA(commands.Cog):
             channel = message.channel
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte1)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte2)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte2a)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte3)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=reporte4)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=kindness1)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             msg = await self.bot.wait_for('message', check=check)
             message = await ctx.send(embed=guildc)
@@ -459,7 +432,7 @@ class RA(commands.Cog):
             message = await ctx.send(embed=guildc2)
 
             def check(m):
-                return m.content == 'done' or m.content == 'Done' or m.content == 'DONE' and m.channel == channel
+                return m.content == '+done' or m.content == '+Done' or m.content == '+DONE' and m.channel == channel
 
             message = await ctx.send(embed=tutoring1)
         else:
